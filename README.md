@@ -1,3 +1,4 @@
+
 # Task Management App
 
 A simple and efficient **Kanban-style** task management web application built with **React**, **Tailwind CSS**, **CSS**, and **TypeScript**. This app allows users to manage and organize their tasks in an intuitive drag-and-drop interface. You can add, update, delete, move, and mark tasks as completed, simulating a Kanban board.
