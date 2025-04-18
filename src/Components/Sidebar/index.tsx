@@ -1,5 +1,6 @@
 import { IoHomeOutline, IoAppsOutline, IoLogOutOutline,IoGridOutline,IoPieChartOutline ,IoPeopleOutline,IoNotificationsOutline,IoNewspaperOutline} from "react-icons/io5"
-
+import logo2 from "../../assets/images/logo2.png"
+import logo1 from "../../assets/images/logo1.png"
 
 const Sidebar = () => {
     const navLinks = [
@@ -84,8 +85,12 @@ const Sidebar = () => {
   return (
     <div className="fixed left-0 top-0 md:w-[230px] w-[60px] overflow-hidden h-full flex flex-col">
       <div className="w-full flex items-center md:justify-center md:pl-5 h-[70px] bg-white">
-            <span className="text-orange-400 font-semibold text-2xl md:block hidden">Khulyso Dev</span>
-            <span className="text-orange-400 font-semibold text-2xl md:hidden block">k.D</span>
+            <span className="text-orange-400 font-semibold text-2xl md:block hidden">
+                <img src={logo2} alt="Logo" className="absolute left-0 top-0" />
+            </span>
+            <span className="text-orange-400 font-semibold text-2xl md:hidden block">
+                <img src={logo1} alt="logo2" className="" />
+            </span>
       </div>
       <div className="w-full h-[calc(100vh-70px)] border-r flex flex-col md:items-start items-center gap-2 border-slate-300 bg-white py-5 px-3 relative">
         {navLinks.map((link) => {
