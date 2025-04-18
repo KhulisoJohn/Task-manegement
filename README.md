@@ -1,5 +1,5 @@
 
-# Task Management App
+# TaskOn Management App
 
 A simple and efficient **Kanban-style** task management web application built with **React**, **Tailwind CSS**, **CSS**, and **TypeScript**. This app allows users to manage and organize their tasks in an intuitive drag-and-drop interface. You can add, update, delete, move, and mark tasks as completed, simulating a Kanban board.
 
@@ -34,8 +34,8 @@ Check out a live demo of the project (replace with your actual link once deploye
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Khulisojohn/Task-management-app.git
-cd Task-management-app
+git clone https://github.com/Khulisojohn/TaskOn-management-app.git
+cd TaskOn-management-app
 ```
 ### 2. Install dependancies
 
