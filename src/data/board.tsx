@@ -41,8 +41,8 @@ export const Board: Columns = {
         ],
         },
 
-        pending: {
-        name: "Pending",
+        todo: {
+        name: "To Do",
         items: [
             {
                 id: uuidv4(),
@@ -86,8 +86,8 @@ export const Board: Columns = {
         ],
     },
 
-    todo: {
-        name: "To do",
+    progress: {
+        name: "In Progress",
         items: [
             {
                 id: uuidv4(),
@@ -131,8 +131,8 @@ export const Board: Columns = {
         ],
     },
         
-        doing: {
-        name: "Doing",
+        review: {
+        name: "In Review",
         items: [
             {
                 id: uuidv4(),
