@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Board } from '../../data/board';
 import Task from '../../Components/Task';
 import { IoAddOutline } from 'react-icons/io5';
+import AddModal from '../../Components/Modals/AddModal';
 
 const Boards = () => {
   const [columns, setColumns] = useState<Columns>(Board);
@@ -62,7 +63,7 @@ const Boards = () => {
               )}
             </Droppable>
 
-            <div className="flex items-center justify-center gap-1 py-[10px] w-full bg-white rounded-lg shadow-sm text-[#555] font-medium text-[15px] cursor-pointer">
+            <div onClick={() => openModal(columnId)} className="flex items-center justify-center gap-1 py-[10px] w-full bg-white rounded-lg shadow-sm text-[#555] font-medium text-[15px] cursor-pointer">
               <IoAddOutline color={'#555'} />
               Add Task
             </div>
@@ -70,6 +71,8 @@ const Boards = () => {
         ))}
       </div>
     </DragDropContext>
+
+    < AddModal isOpen = {modalOpen} onClose= {closeModal} setOpen={setModalOpen} handleAddTask={handleAddTask} />
     </>
    
   );
