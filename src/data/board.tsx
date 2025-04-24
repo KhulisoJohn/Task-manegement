@@ -131,7 +131,7 @@ export const Board: Columns = {
         ],
     },
         
-        review: {
+     /*   review: {
         name: "In Review",
         items: [
             {
@@ -146,7 +146,7 @@ export const Board: Columns = {
                 title: "update the design system",
             },
         ],
-    },
+    }, */
 
     done: {
         name: "Done",
