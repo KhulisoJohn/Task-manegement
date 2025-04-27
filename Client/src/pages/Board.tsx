@@ -1,11 +1,11 @@
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
-import { Columns } from '../../types';
+import { Columns } from '../types';
 import { useState } from 'react';
-import { Board } from '../../data/board';
-import Task from '../../Components/Task';
+import { Board } from '../data/board';
+import Task from '../Components/Task';
 import { IoAddOutline } from 'react-icons/io5';
-import { onDragEnd } from "../../helpers/onDragEnd";
-import AddModal from '../../Components/Modals/AddModal';
+import { onDragEnd } from "../helpers/onDragEnd";
+import AddModal from '../Components/AddModal';
 
 const Boards = () => {
   const [columns, setColumns] = useState<Columns>(Board);

@@ -1,6 +1,6 @@
 
 import {v4 as uuidv4} from "uuid";
-import { getRandomColor } from "../../helpers/getRandomColors";
+import { getRandomColor } from "../helpers/getRandomColors";
 import React, { useState } from "react";
 
 
