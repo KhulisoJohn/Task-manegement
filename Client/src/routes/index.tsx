@@ -1,6 +1,6 @@
 import { RouteObject } from "react-router-dom";
 import Layout from '../Layout'
-import Boards from '../pages/Boards';
+import Boards from '../pages/Board';
 
 const routes: RouteObject[] = [
   {

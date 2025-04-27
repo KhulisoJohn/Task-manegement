@@ -1,5 +1,5 @@
 import { IoTimeOutline } from 'react-icons/io5';
-import {TaskT} from '../../types';
+import {TaskT} from '../types';
 
 interface taskProps {
   task: TaskT;

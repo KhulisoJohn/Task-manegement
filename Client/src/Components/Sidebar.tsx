@@ -1,6 +1,6 @@
 import { IoHomeOutline, IoAppsOutline, IoLogOutOutline,IoGridOutline,IoPieChartOutline ,IoPeopleOutline,IoNotificationsOutline,IoNewspaperOutline} from "react-icons/io5"
-import logo2 from "../../assets/images/logo2.png"
-import logo1 from "../../assets/images/logo1.png"
+import logo2 from "../assets/images/logo2.png"
+import logo1 from "../assets/images/logo1.png"
 
 const Sidebar = () => {
     const navLinks = [
